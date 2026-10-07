@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Privacy Policy for YOUR GAME NAME." />
+  <title>Privacy Policy — YOUR GAME NAME</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #0f1115;
+      --card: #171a21;
+      --text: #f3f5f7;
+      --muted: #aeb6c2;
+      --accent: #8ab4ff;
+      --border: #2a303a;
+      --max: 860px;
+    }
+
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f7f8fb;
+        --card: #ffffff;
+        --text: #191c22;
+        --muted: #5e6672;
+        --accent: #2457c5;
+        --border: #e2e6ec;
+      }
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+        "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      background:
+        radial-gradient(circle at top left, rgba(138,180,255,.13), transparent 34%),
+        var(--bg);
+    }
+
+    .wrap {
+      width: min(calc(100% - 32px), var(--max));
+      margin: 0 auto;
+    }
+
+    .hero {
+      padding: 72px 0 54px;
+    }
+
+    .eyebrow {
+      font-size: .82rem;
+      text-transform: uppercase;
+      letter-spacing: .12em;
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    h1 {
+      margin: 10px 0 12px;
+      font-size: clamp(2.1rem, 7vw, 4rem);
+      line-height: 1.05;
+      letter-spacing: -.045em;
+    }
+
+    .subtitle {
+      max-width: 700px;
+      color: var(--muted);
+      font-size: 1.05rem;
+      margin: 0;
+    }
+
+    .meta {
+      margin-top: 20px;
+      color: var(--muted);
+      font-size: .92rem;
+    }
+
+    nav {
+      margin-top: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    nav a, .button {
+      display: inline-block;
+      text-decoration: none;
+      color: var(--text);
+      border: 1px solid var(--border);
+      background: var(--card);
+      border-radius: 999px;
+      padding: 8px 13px;
+      font-size: .9rem;
+    }
+
+    main {
+      padding: 36px 0 70px;
+    }
+
+    section {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 26px;
+      margin-bottom: 18px;
+    }
+
+    h2 {
+      margin-top: 0;
+      font-size: 1.35rem;
+      letter-spacing: -.02em;
+    }
+
+    h3 {
+      font-size: 1rem;
+      margin-bottom: 6px;
+    }
+
+    p, li { color: var(--muted); }
+    strong { color: var(--text); }
+
+    a {
+      color: var(--accent);
+      text-underline-offset: 3px;
+    }
+
+    ul {
+      padding-left: 22px;
+    }
+
+    .notice {
+      border-left: 4px solid var(--accent);
+      padding-left: 18px;
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      padding: 30px 0 50px;
+      font-size: .9rem;
+    }
+
+    code {
+      background: rgba(127,127,127,.12);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 2px 6px;
+      color: var(--text);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap hero">
+      <div class="eyebrow">Privacy Policy</div>
+      <h1>YOUR GAME NAME</h1>
+      <p class="subtitle">
+        This Privacy Policy explains how information may be collected, used, and shared
+        when you use <strong>YOUR GAME NAME</strong>.
+      </p>
+      <p class="meta">
+        Developer: <strong>YOUR DEVELOPER NAME</strong><br />
+        Last updated: <strong>October 7, 2026</strong>
+      </p>
+
+      <nav aria-label="Privacy policy sections">
+        <a href="#information">Information</a>
+        <a href="#advertising">Advertising</a>
+        <a href="#consent">Consent</a>
+        <a href="#children">Children</a>
+        <a href="#retention">Retention</a>
+        <a href="#rights">Your rights</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="notice">
+      <h2>1. Overview</h2>
+      <p>
+        <strong>YOUR GAME NAME</strong> is a mobile game published by
+        <strong>YOUR DEVELOPER NAME</strong>. The game uses third-party services,
+        including Unity LevelPlay, to provide and measure advertising.
+      </p>
+      <p>
+        This policy describes data processed by the game and by third-party SDKs integrated
+        into the game. The exact information processed can depend on your device, region,
+        privacy choices, and the advertising providers available at the time an ad is shown.
+      </p>
+    </section>
+
+    <section id="information">
+      <h2>2. Information that may be collected</h2>
+      <p>
+        The game itself is designed not to require you to create an account or directly provide
+        personal information such as your name, postal address, or phone number.
+      </p>
+      <p>
+        However, advertising and related SDKs may automatically process information such as:
+      </p>
+      <ul>
+        <li>device identifiers and advertising identifiers, where permitted;</li>
+        <li>IP address and approximate location derived from it;</li>
+        <li>device model, operating system, language, and technical information;</li>
+        <li>app interactions, ad impressions, ad clicks, and reward events;</li>
+        <li>diagnostic, fraud-prevention, and performance information;</li>
+        <li>consent and privacy preference signals.</li>
+      </ul>
+      <p>
+        Data collected by advertising partners may differ depending on which ad network serves
+        an advertisement. You should review the privacy information of the applicable providers
+        for more detail.
+      </p>
+    </section>
+
+    <section id="advertising">
+      <h2>3. Advertising and third-party services</h2>
+      <p>
+        <strong>YOUR GAME NAME</strong> uses <strong>Unity LevelPlay</strong> to manage
+        rewarded advertising. Rewarded ads are optional ads that may provide an in-game benefit
+        after the ad is completed.
+      </p>
+      <p>
+        Unity LevelPlay may work with multiple advertising networks. These providers may process
+        device and advertising data to deliver ads, measure performance, prevent fraud, and,
+        where legally permitted and consented to, personalize advertising.
+      </p>
+      <p>
+        You can read Unity's privacy information here:
+        <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy"
+           target="_blank" rel="noopener noreferrer">
+          Unity Game Player and App User Privacy Policy
+        </a>.
+      </p>
+      <p>
+        If the game later adds additional analytics, crash-reporting, login, cloud-save,
+        payment, or advertising services, this policy will be updated to reflect them.
+      </p>
+    </section>
+
+    <section id="consent">
+      <h2>4. Consent and advertising choices</h2>
+      <p>
+        In regions where consent is required, the game may show a consent or privacy-choice
+        message before advertising services are allowed to process data for certain purposes.
+      </p>
+      <p>
+        Depending on your region and available options, you may be able to consent to,
+        refuse, or manage certain forms of advertising data processing. Your choices may affect
+        whether ads are personalized, but you may still receive non-personalized or contextual ads.
+      </p>
+      <p>
+        You may also be able to reset or limit your device's advertising identifier through
+        your Android device settings.
+      </p>
+    </section>
+
+    <section id="legal">
+      <h2>5. Why information is processed</h2>
+      <p>Information may be processed for purposes including:</p>
+      <ul>
+        <li>showing and measuring advertisements;</li>
+        <li>granting in-game rewards connected to rewarded ads;</li>
+        <li>detecting fraud, abuse, invalid traffic, and security issues;</li>
+        <li>maintaining and improving technical performance;</li>
+        <li>complying with applicable legal and regulatory obligations.</li>
+      </ul>
+    </section>
+
+    <section id="sharing">
+      <h2>6. Sharing of information</h2>
+      <p>
+        Information may be shared with or processed by service providers involved in
+        advertising, measurement, security, fraud prevention, and related technical services.
+        These companies process information according to their own privacy terms and applicable law.
+      </p>
+      <p>
+        <strong>YOUR DEVELOPER NAME</strong> does not sell personal information directly to
+        individual users or other players. Advertising-related data practices may nevertheless
+        fall under broad legal definitions of "sale" or "sharing" in some jurisdictions, so
+        applicable privacy choices will be respected where required.
+      </p>
+    </section>
+
+    <section id="children">
+      <h2>7. Children's privacy</h2>
+      <p>
+        <strong>YOUR GAME NAME is not directed to children under 13.</strong>
+        If your Google Play target audience includes children, or if the game is intentionally
+        designed for children, this section and the advertising setup must be changed before release
+        to comply with Google Play Families requirements and applicable children's privacy laws.
+      </p>
+    </section>
+
+    <section id="retention">
+      <h2>8. Data retention and deletion</h2>
+      <p>
+        The developer does not maintain user accounts for <strong>YOUR GAME NAME</strong> and
+        does not intentionally maintain a separate database of player identity information solely
+        for advertising purposes.
+      </p>
+      <p>
+        Third-party advertising providers may retain information for periods described in their
+        own privacy policies and as needed for advertising, measurement, fraud prevention,
+        security, and legal compliance.
+      </p>
+      <p>
+        If you have a privacy or deletion request concerning information controlled by
+        <strong>YOUR DEVELOPER NAME</strong>, contact us using the email address below. If the
+        request concerns data controlled directly by a third-party provider, we may direct you to
+        that provider's privacy tools or contact channel.
+      </p>
+    </section>
+
+    <section id="security">
+      <h2>9. Security</h2>
+      <p>
+        We take reasonable measures to protect information under our control. However, no method
+        of electronic transmission or storage can be guaranteed to be completely secure.
+        Third-party service providers are responsible for the security of information they process
+        under their own systems and policies.
+      </p>
+    </section>
+
+    <section id="rights">
+      <h2>10. Your privacy rights</h2>
+      <p>
+        Depending on where you live, you may have rights relating to your personal information,
+        including the right to request access, correction, deletion, restriction, objection,
+        or withdrawal of consent where applicable.
+      </p>
+      <p>
+        To submit a privacy request to the developer, contact:
+        <a href="mailto:YOUR-EMAIL@example.com">YOUR-EMAIL@example.com</a>.
+      </p>
+    </section>
+
+    <section id="changes">
+      <h2>11. Changes to this policy</h2>
+      <p>
+        This Privacy Policy may be updated when the game, its SDKs, or legal requirements change.
+        The updated version will be published on this page and the "Last updated" date at the top
+        will be changed.
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2>12. Contact</h2>
+      <p>
+        If you have questions about this Privacy Policy or privacy practices for
+        <strong>YOUR GAME NAME</strong>, contact:
+      </p>
+      <p>
+        <strong>YOUR DEVELOPER NAME</strong><br />
+        Email: <a href="mailto:YOUR-EMAIL@example.com">YOUR-EMAIL@example.com</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      © 2026 YOUR DEVELOPER NAME · Privacy Policy for YOUR GAME NAME
+    </div>
+  </footer>
+</body>
+</html>
